@@ -1,11 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Price Card</title>
+    <title>index</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .price-cards {
+            display: flex;
+            gap: 50px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .price-card {
+            width: 300px;
+            padding: 35px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        }
+
+        .price-card-light-black {
+
+            background-color: #2C3140;
+            color: #FFFFFF;
+        }
+
+        .price-title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        .price {
+            text-align: center;
+            font-size: 64px;
+            font-weight: 700;
+        }
+
+        .price-sub-title {
+            text-align: center;
+            font-weight: 400;
+            font-size: 14px;
+            margin: 25px auto;
+        }
+
+        .price-button {
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+            color: #1465FA;
+            cursor: pointer;
+            padding: 17px 37px;
+            border: 3px solid #1465FA;
+            background-color: #FFFFFF;
+        }
+
+        .price-button-blue {
+            background: #1465FA;
+            color: #FFFFFF;
+        }
+
+        .price-divider {
+            width: 100px;
+            margin: 25px auto;
+            border-color: #DDDDDD;
+            height: 1px;
+        }
+
+        .price-dicription span {
+
+
+            display: block;
+
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            text-align: center;
+
+            margin-bottom: 13px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="price-cards">
+
+        <div class="price-card">
+
+            <div class="price-title">
+
+                Startup
+
+            </div>
+            <div class="price">
+                $14
+            </div>
+            <div class="price-sub-title">
+                per user, per month
+            </div>
+            <div class="price-button-container">
+                <button class="price-button">
+                    Start My 15-day Trial
+                </button>
+            </div>
+            <hr class="price-divider">
+            <div class="price-dicription">
+                <span>
+                    5 Social Profiles
+                </span>
+                <span>
+                    5 Scheduled Posts Per Profile
+                </span>
+                <span>
+                    400+ Templates
+                </span>
+                <span>
+                    Calendar View
+                </span>
+                <span>
+                    24/7 Support
+                </span>
+            </div>
+
+        </div>
+
+        <div class="price-card price-card-light-black">
+
+            <div class="price-title">
+
+                Business
+
+            </div>
+            <div class="price">
+                $29
+            </div>
+            <div class="price-sub-title">
+                per user, per month
+            </div>
+            <div class="price-button-container">
+                <button class="price-button price-button-blue">
+                    Start My 15-day Trial
+                </button>
+            </div>
+            <hr class="price-divider">
+            <div class="price-dicription">
+                <span>
+                    10 Social Profiles
+                </span>
+                <span>
+                    25 Scheduled Posts Per Profile
+                </span>
+                <span>
+                    400+ Templates
+                </span>
+                <span>
+                    Calendar View
+                </span>
+                <span>
+                    24/7 VIP Support
+                </span>
+            </div>
+
+        </div>
+
+        <div class="price-card">
+
+            <div class="price-title">
+
+                Agency
+
+            </div>
+            <div class="price">
+                $139
+            </div>
+            <div class="price-sub-title">
+                per user, per month
+            </div>
+            <div class="price-button-container">
+                <button class="price-button">
+                    Start My 15-day Trial
+                </button>
+            </div>
+            <hr class="price-divider">
+            <div class="price-dicription">
+                <span>
+                    100 Social Profiles
+                </span>
+                <span>
+                    100 Scheduled Posts Per Profile
+                </span>
+                <span>
+                    400+ Templates
+                </span>
+                <span>
+                    Calendar View
+                </span>
+                <span>
+                    24/7 VIP Support
+                </span>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
 </body>
+
 </html>
